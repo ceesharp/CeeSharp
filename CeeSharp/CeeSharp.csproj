@@ -200,9 +200,9 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Achievements.aspx" />
-    <Content Include="App_Data\CeeSharp.mdf" />
-    <Content Include="App_Data\CeeSharp_log.ldf">
-      <DependentUpon>CeeSharp.mdf</DependentUpon>
+    <Content Include="App_Data\Database.mdf" />
+    <Content Include="App_Data\Database_log.ldf">
+      <DependentUpon>Database.mdf</DependentUpon>
     </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -428,6 +428,7 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
